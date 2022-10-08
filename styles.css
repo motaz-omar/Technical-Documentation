@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#navbar header {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+#Introduction section,
+#What_you_should_already_know section,
+#JavaScript_and_Java section,
+#Hello_world section,
+#Variables section,
+#Variables section,
+#Declaring_variables section,
+#Variable_scope section,
+#Global_variables section,
+#Constants section,
+#while_statement section,
+#Function_declarations section,
+#Reference section,
+#if._._.else_statement section {
+  margin-left: 25px;
+}
+p,
+li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+li {
+  margin-left: 20px;
+}
+#Data_types section {
+  margin-left: 50px;
+}
+
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+header {
+  font-weight: 500;
+  color: black;
+  font-size: 1.8rem;
+}
+code {
+  display: block;
+  text-align: left;
+
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#navbar {
+  position: fixed;
+
+  border-right: 2px solid #4d4e53;
+  height: 100%;
+  width: 302px;
+}
+
+#main-doc {
+  margin-left: 310px;
+}
+#nav-ul {
+  overflow-y: scroll;
+
+  height: 88%;
+  position: fixed;
+  padding: 0;
+  width: 300px;
+  list-style-type: none;
+}
+
+.nav-li {
+  border-top: 1.5px solid black;
+  margin: 0;
+  padding: 12px 30px 12px 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #4d4e53;
+}
+#MDN-link {
+  text-decoration: none;
+  color: black;
+}
+#MDN-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+#Data-types-ul1 {
+  margin-left: 50px;
+}
+#Data-types-ul2 {
+  margin-left: 50px;
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  #Introduction header,
+  p,
+  ul {
+    margin-left: -12px;
+  }
+  #Introduction ul {
+    margin-left: -20px;
+  }
+  #What_you_should_already_know header,
+  #Declaring_variables header,
+  #JavaScript_and_Java header,
+  #Hello_world,
+  #Variable_scope header,
+  #Global_variables header,
+  #Constants header,
+  #if._._.else_statement header,
+  #while_statement header,
+  #Function_declarations header,
+  #Reference header {
+    margin-left: -10px;
+  }
+  #Reference li {
+    margin-left: 5px;
+  }
+
+  #navbar {
+    width: 150px;
+  }
+  #navbar header {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+  .nav-li {
+    padding: 5px 30px 5px 30px;
+  }
+
+  #nav-ul {
+    width: 160px;
+    font-size: 13px;
+  }
+  #main-doc {
+    margin-left: 170px;
+    font-size: 10px;
+  }
+  #main-doc header {
+    font-size: 14px;
+  }
+  header {
+    font-weight: 400;
+  }
+  code {
+    padding-right: -50px;
+    overflow: scroll;
+
+    margin-left: -20px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  #Variables header {
+    margin-left: -20px;
+  }
+  #Variables p {
+    margin-left: -25px;
+  }
+  #Data-types-ul1 {
+    margin-left: -20px;
+  }
+  #Data-types-ul2 {
+    margin-left: 30px;
+  }
+  #Data_types p {
+    margin-left: -35px;
+  }
+}
